@@ -1,0 +1,157 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="-CRBw-tC3A5ZLADeZRjc">
+    <mxGraphModel dx="1735" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Web system for recruitment" vertex="1">
+          <mxGeometry height="690" width="670" x="90" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-2" parent="VKp_-vzcJV1BjV9Pzq7N-1" style="swimlane;whiteSpace=wrap;html=1;" value="CV builder" vertex="1">
+          <mxGeometry height="200" width="200" x="24" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-3" parent="VKp_-vzcJV1BjV9Pzq7N-2" style="ellipse;whiteSpace=wrap;html=1;" value="Create CVs" vertex="1">
+          <mxGeometry height="70" width="140" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-11" parent="VKp_-vzcJV1BjV9Pzq7N-2" style="ellipse;whiteSpace=wrap;html=1;" value="Validate the CV" vertex="1">
+          <mxGeometry height="70" width="140" x="36" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-6" parent="VKp_-vzcJV1BjV9Pzq7N-1" style="swimlane;whiteSpace=wrap;html=1;" value="Tests" vertex="1">
+          <mxGeometry height="300" width="390" x="20" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-14" parent="VKp_-vzcJV1BjV9Pzq7N-6" style="ellipse;whiteSpace=wrap;html=1;" value="Take the evaluation test" vertex="1">
+          <mxGeometry height="70" width="140" x="140" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-13" parent="VKp_-vzcJV1BjV9Pzq7N-6" style="ellipse;whiteSpace=wrap;html=1;" value="Creates automated tests and invite all shorlisted candidates to take" vertex="1">
+          <mxGeometry height="70" width="140" y="55" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-15" parent="VKp_-vzcJV1BjV9Pzq7N-6" style="ellipse;whiteSpace=wrap;html=1;" value="sends the list of candidates who passed the tests to the recruiter and informs&lt;br/&gt;unsuccessful candidates of the skill areas they need to improve." vertex="1">
+          <mxGeometry height="120" width="210" x="150" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-37" parent="VKp_-vzcJV1BjV9Pzq7N-6" style="ellipse;whiteSpace=wrap;html=1;" value="Receives the shortlists" vertex="1">
+          <mxGeometry height="70" width="140" x="10" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-16" parent="VKp_-vzcJV1BjV9Pzq7N-1" style="ellipse;whiteSpace=wrap;html=1;" value="sends job announcements&lt;br/&gt;to users for positions that match their preferences" vertex="1">
+          <mxGeometry height="105" width="170" x="470" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-5" parent="1" style="swimlane;whiteSpace=wrap;html=1;" value="Orientation" vertex="1">
+          <mxGeometry height="320" width="360" x="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-7" parent="VKp_-vzcJV1BjV9Pzq7N-5" style="ellipse;whiteSpace=wrap;html=1;" value="Review CV" vertex="1">
+          <mxGeometry height="70" width="140" x="10" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-8" parent="VKp_-vzcJV1BjV9Pzq7N-5" style="ellipse;whiteSpace=wrap;html=1;" value="Add CV to&amp;nbsp; a shortlist corresponding to&lt;br/&gt;a specific job position&amp;nbsp;" vertex="1">
+          <mxGeometry height="70" width="140" x="180" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-9" parent="VKp_-vzcJV1BjV9Pzq7N-5" style="ellipse;whiteSpace=wrap;html=1;" value="submit the shortlist to the client manager" vertex="1">
+          <mxGeometry height="70" width="140" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-10" parent="VKp_-vzcJV1BjV9Pzq7N-5" style="ellipse;whiteSpace=wrap;html=1;" value="formalizes their recommendations and sends them to the applicant" vertex="1">
+          <mxGeometry height="70" width="140" x="200" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-12" parent="VKp_-vzcJV1BjV9Pzq7N-5" style="ellipse;whiteSpace=wrap;html=1;" value="Addresses the recommendations and resubmits the CV" vertex="1">
+          <mxGeometry height="70" width="140" x="10" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-18" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Scheduler" vertex="1">
+          <mxGeometry height="60" width="30" x="780" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-19" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Career expert" vertex="1">
+          <mxGeometry height="60" width="30" x="780" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-20" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Client manager" vertex="1">
+          <mxGeometry height="60" width="30" x="-10" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-24" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="VKp_-vzcJV1BjV9Pzq7N-11" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-21" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Job applicant" vertex="1">
+          <mxGeometry height="60" width="30" x="-60" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-25" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="VKp_-vzcJV1BjV9Pzq7N-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="260" />
+              <mxPoint x="102" y="260" />
+              <mxPoint x="102" y="205" />
+            </Array>
+            <mxPoint x="70" y="300" as="sourcePoint" />
+            <mxPoint x="160" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-26" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-20" style="endArrow=classic;html=1;rounded=0;entryX=0.079;entryY=0.721;entryDx=0;entryDy=0;entryPerimeter=0;" target="VKp_-vzcJV1BjV9Pzq7N-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="70" y="310" as="sourcePoint" />
+            <mxPoint x="170" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-28" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-20" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VKp_-vzcJV1BjV9Pzq7N-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="30" y="604" as="sourcePoint" />
+            <mxPoint x="131" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-29" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-21" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VKp_-vzcJV1BjV9Pzq7N-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="-40" y="690" />
+            </Array>
+            <mxPoint x="90" y="330" as="sourcePoint" />
+            <mxPoint x="382" y="405" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-31" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-19" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="VKp_-vzcJV1BjV9Pzq7N-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="800" y="200" />
+            </Array>
+            <mxPoint x="560" y="480" as="sourcePoint" />
+            <mxPoint x="610" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-32" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-19" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="VKp_-vzcJV1BjV9Pzq7N-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="805" y="340" as="sourcePoint" />
+            <mxPoint x="510" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-33" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-19" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="VKp_-vzcJV1BjV9Pzq7N-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="805" y="340" as="sourcePoint" />
+            <mxPoint x="680" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-34" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-19" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="VKp_-vzcJV1BjV9Pzq7N-9" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="815" y="350" as="sourcePoint" />
+            <mxPoint x="700" y="353" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-35" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-18" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="VKp_-vzcJV1BjV9Pzq7N-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points" />
+            <mxPoint x="805" y="340" as="sourcePoint" />
+            <mxPoint x="499" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;F1. The system shall let the applicant build their CVs&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;priotrity:8&amp;nbsp; &amp;nbsp; &amp;nbsp;effort:8&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;F2. The system shall send job announcments to users for positions that match their preference weekly&amp;nbsp; &amp;nbsp; &amp;nbsp;priority:5&amp;nbsp; &amp;nbsp; effort:4&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;F3.The system shall let the client manager create automated test&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;priority:7&amp;nbsp; &amp;nbsp;effort:6&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;F4. The system shall let the career expert review the CVs&amp;nbsp; &amp;nbsp; &amp;nbsp;priority:7&amp;nbsp; &amp;nbsp;effort:&amp;nbsp; 5&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;F5. The system shall allow the applicant to resubmit their CV&amp;nbsp; &amp;nbsp; priority: 8&amp;nbsp; &amp;nbsp;effort:4&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="610" x="130" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-27" edge="1" parent="1" source="VKp_-vzcJV1BjV9Pzq7N-21" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="VKp_-vzcJV1BjV9Pzq7N-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="320" as="sourcePoint" />
+            <mxPoint x="372" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VKp_-vzcJV1BjV9Pzq7N-38" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="VKp_-vzcJV1BjV9Pzq7N-37" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="30" y="567" as="sourcePoint" />
+            <mxPoint x="270" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
